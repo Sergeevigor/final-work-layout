@@ -91,4 +91,116 @@
       });
 
 
-     
+      new Accordion('.accordion-container');
+
+
+      document.querySelectorAll('.guests-mame-list__link').forEach(function(tabsBtn){ 
+        tabsBtn.addEventListener('click', function(e){ 
+          const path = e.currentTarget.dataset.path;
+    
+        // document.querySelectorAll('.guests-mame-list__link').forEach(function(btn){ 
+        //   btn.classList.remove('guests-mame-list__link--active')}); 
+        //   e.currentTarget.classList.add('guests-mame-list__link--active');
+    
+          document.querySelectorAll('.guests-profile').forEach(function(tabsBtn){ 
+            tabsBtn.classList.remove('guests-profile--active')});
+    
+            document.querySelector(`[data-target="${path}"]`).classList.add('guests-profile--active'); 
+          }); 
+        });
+    
+        /* modal */
+
+        let btnOpenModal = document.querySelector('.modal-btn');
+        let openModalWindow = document.querySelector('.modal');
+        let closeModalWindow = document.querySelector('.btn-closed-modal');
+
+        btnOpenModal.addEventListener('click',
+
+    function () {
+
+      openModalWindow.classList.toggle('modal--visible');
+
+    });
+
+    closeModalWindow.addEventListener('click', 
+
+    function () {
+
+      openModalWindow.classList.remove('modal--visible');
+
+    });
+
+
+    /* form */
+
+    const validation = new JustValidate('.forus-form',
+{
+  errorLabelCssClass: 'just-validate-error-label',
+  errorLabelStyle: {
+    color: '#D52B1E',
+  }
+}
+);
+
+validation
+
+
+.addField('.forus-form__message', [
+  {
+    rule: 'required',
+    errorMessage: 'Вы не ввели сообщение',
+  },
+  {
+    rule: 'minLength',
+    value: 3,
+    errorMessage: 'Минимальное колличество символов 3',
+  },
+  {
+    rule: 'maxLength',
+    value: 500,
+    errorMessage: 'Минимальное колличество символов 500',
+  },
+])
+
+  .addField('.forus-form__name', [
+    {
+      rule: 'required',
+      errorMessage: 'Вы не ввели имя',
+    },
+    {
+      rule: 'minLength',
+      value: 3,
+      errorMessage: 'Минимальное колличество символов 3',
+    },
+    {
+      rule: 'maxLength',
+      value: 30,
+      errorMessage: 'Минимальное колличество символов 30',
+    },
+    {
+      rule: 'customRegexp',
+      value: /^[a-zA-ZА-Яа-яЁё]+$/,
+      errorMessage: 'Ошибка',
+    },
+  ])
+
+  .addField('.forus-form__email', [
+    {
+      rule: 'required',
+      errorMessage: 'Вы не ввели E-mail',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Email указан не верно',
+    },
+  ])
+
+  
+  /* choices */
+
+  const element = document.querySelector('.transfers-select');
+  const choices = new Choices(element, {
+    searchEnabled: false,
+    openState: 'is-open',
+  });

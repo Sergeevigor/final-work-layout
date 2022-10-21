@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * Accordion v3.3.2
+ * Lightweight and accessible accordion module created in pure Javascript
+ * https://github.com/michu2k/Accordion
+ *
+ * Copyright (c) Michał Strumpf
+ * Published under MIT License
+ */
+
+.ac {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-sizing: border-box
+}
+
+.ac .ac-header {
+  margin: 0;
+  padding: 0
+}
+
+.ac .ac-trigger {
+  font: bold 16px Arial, sans-serif;
+  color: #ffffff;
+  text-align: left;
+  width: 100%;
+  padding: 34px 60px 34px 0px;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  transition: color .25s ease;
+  position: relative;
+  text-decoration: none;
+  margin: 0;
+  border: 0
+}
+
+/* .ac .ac-trigger::after {
+  content: url(../img/guest-accordion-icon-close.svg);
+  text-align: center;
+  width: 15px;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  right: 10px;
+  top: 50%
+} */
+
+.ac .ac-trigger::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 22px;
+  height: 42px;
+  width: 42px;
+  border: 2px solid #666666;
+  border-radius: 100%;
+  text-align: center;
+  /* width: 15px; */
+  /* -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%); */
+  /* position: absolute; */
+  
+}
+
+.ac .ac-trigger::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 12px;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 16px;
+  border-bottom: 2px solid #666666;
+  border-right: 2px solid #666666;
+  text-align: center;
+  /* width: 15px; */
+  /* -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%); */
+  /* position: absolute; */
+  transition: transform 0.4s ease-in-out;
+}
+
+.ac .ac-panel {
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-timing-function: ease
+}
+
+.ac .ac-panel .ac-text {
+  font: 15px/24px Arial, sans-serif;
+  color: #111;
+  padding: 10px;
+  margin: 0
+}
+
+.ac.js-enabled .ac-panel {
+  visibility: hidden
+}
+
+.ac.is-active .ac-panel {
+  visibility: visible
+}
+
+.ac.is-active>.ac-header .ac-trigger::before {
+  top: 37px;
+  transform: rotate(-135deg);
+  transition: transform 0.4s ease-in-out;
+}
