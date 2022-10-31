@@ -20,6 +20,28 @@
 
     });
 
+    /* burger */
+
+  let burger = document.querySelector('.burger');
+  let burgerMenuOpen = document.querySelector('.burger-menu');
+  let burgerMenuClose = document.querySelector('.burger-close');
+
+  burger.addEventListener('click',
+
+    function () {
+
+      burgerMenuOpen.classList.toggle('burger--visible');
+
+    });
+
+    burgerMenuClose.addEventListener('click', 
+
+    function () {
+
+      burgerMenuOpen.classList.remove('burger--visible');
+
+    });
+
   /* podcasts show more */
 
     const btnMore = document.querySelector('.podcasts-btn-more')
@@ -76,10 +98,35 @@
       /* slider */
 
       const swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4, 
+        // slidesPerView: 4, 
         loop: true,
-        spaceBetween: 30,
+        // spaceBetween: 30,
 
+        breakpoints: {
+          
+        320: {
+          slidesPerView: 2.2,
+          spaceBetween: 30,
+        },
+
+        540: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+       },
+
+       860: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+     },
+
+        1000: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+      },
+
+
+
+      },
         // pagination: {
         //   el: '.swiper-pagination', 
         // },
@@ -88,6 +135,7 @@
           nextEl: '.swiper-button-next', 
           prevEl: '.swiper-button-prev', 
         }, 
+
       });
 
 
@@ -204,3 +252,6 @@ validation
     searchEnabled: false,
     openState: 'is-open',
   });
+
+
+  

@@ -1,5 +1,598 @@
-@media (max-width: 320px) {
-  .img-logo {
-    
+@media (max-width: 1100px) {
+  .header-logo-link {
+    margin-right: 30px;
+  }
+
+  .header-logo-link {
+    display: none;
+  }
+
+  .header-logo-tablet {
+    display: block;
+  }
+
+  .container-playlists {
+    flex-direction: column;
+  }
+
+  .playlists-form {
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+  }
+
+  .playlists-form-block {
+    display: flex;
+    /* align-items: flex-start; */
+  }
+
+  .playlists-block-left {
+    max-width: 100%;
+  }
+
+  .playlists-form-block__left {
+    margin-right: 20px;
+  }
+
+  .playlists-info-minors {
+    max-width: 100%;
+  }
+
+  .playlists-list__item {
+    flex: calc((100% / 3) - 30px);
+    flex-direction: row;
+  }
+
+  .playlists-card {
+    padding: 0;
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .advertisement-img-new {
+    background-image: url(../img/advertisement-new-img-tablet.svg);
+  }
+
+  .playlists-block-18 {
+    display: none;
+  }
+
+  .playlists-form {
+    border-bottom: none;
+  }
+
+  .playlists-block-18-tablet {
+    display: block;
+    border-top: 1px solid #D2D5DD;
+  }
+
+  .playlists-block-right {
+    margin-bottom: 41px;
+    padding: 0;
+  }
+
+  .playlists-block-left {
+    margin: 0;
+  }
+
+  .playlists-form-block__left {
+    margin: 0;
+  }
+
+  .playlists-form-block {
+    margin-bottom: 10px;
+  }
+
+  .container-playlists {
+    margin-bottom: 90px;
+  }
+
+  .advertisement-block-right {
+    flex-basis: 60%;
+  }
+
+  .footer-block-right {
+    flex-basis: 70%;
   }
 }
+
+
+  
+
+
+
+@media (max-width: 1000px) {
+  .header-img-12 {
+    display: none;
+  }
+
+  .ether-play, .header-nav-bottom {
+    margin-right: 0;
+  }
+
+  /* .header-list-bottom__item {
+    margin-right: 30px;
+  } */
+
+  .header-list-bottom__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .header-nav-bottom {
+    margin-right: 30px;
+  }
+
+  .hero-p {
+    max-width: 539px;
+  }
+
+  .header-list-bottom {
+    padding: 22px 0;
+  }
+
+  .ether {
+    background-image: url(../img/hero-microphone-1024.svg);
+  }
+
+  .transfers-list__item {
+    flex: calc((100% / 2) - 30px);
+  }
+
+  .transfers-block-left-none {
+    display: block;
+  }
+
+  .transfers-block-left__block {
+    /* flex-basis: calc((100% / 3); */
+    max-width: 327.5px;
+    max-height: 302.91px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .transfers-block-left__block:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .transfers-block-left-bottom {
+    max-height: 302.91px;
+    height: 100%;
+  }
+
+  .transfers-block-left-bottom {
+    background-image: url(../img/transfers-microphone.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom 124px;
+  }
+
+  .transfers-block-left {
+    background-image: none;
+  }
+
+  .transfers-link-archive {
+    margin-top: auto;
+  }
+
+
+
+}
+
+
+@media (max-width: 900px) {
+  .forus-img-spiral {
+    display: none;
+  }
+
+  .forus-img-dawn {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .header-list-top {
+    margin-right: 37px;
+  }
+
+  .header-top {
+    /* padding-top: 15px; */
+  }
+
+  .header-btn-search {
+    margin-right: 22px;
+  }
+
+  .podcasts-list {
+    margin-bottom: 60px;
+  }
+
+  .transfers-name-selector {
+    display: block;
+  }
+
+  .guests-p-list {
+    max-width: 536px;
+  }
+
+  .accordion-container {
+    flex-basis: 67.7%;
+  }
+
+  .playlists-form-block__left {
+    margin-right: 38px;
+  }
+
+  .advertisement-block-right {
+    max-width: 395px;
+  }
+
+  .advertisement-svg-wave {
+    max-width: 395px;
+  }
+
+  .container-advertisement {
+    padding-bottom: 94px;
+  }
+
+
+  .forus-block-heading__text {
+    max-width: 539px;
+  }
+
+  .swiper-container {
+    margin-bottom: 36px;
+  }
+
+  .footer-container {
+    margin-bottom: 98px;
+  }
+
+  .advertisement-block-right {
+    flex-basis: 75%;
+  }
+}
+
+
+@media (max-width: 860px) {
+  
+}
+
+
+@media (max-width: 855px) {
+  .header-list-bottom__item:not(:last-child) {
+    margin-right: 29px;
+  }
+
+  .header-nav-bottom {
+    margin-right: 29px;
+  }
+
+  .header-logo-tablet {
+    padding: 21px 0 20px 15px;
+  }
+
+  .ether {
+    padding-top: 68px;
+  }
+
+  .hero-p {
+    margin-bottom: 21px;
+  }
+
+  .container-podcasts {
+    padding-top: 88px;
+  }
+
+  .podcasts-block-img {
+    flex-basis: 28%;
+  }
+
+  .podcasts-block-top {
+    padding: 26px 33px 20px 31px;
+  }
+
+  .modal-window {
+    left: 15px;
+    right: 15px;
+    padding: 60px 40px;
+  }
+
+  
+
+}
+
+@media (max-width: 852px) {
+  .header-list-top__item:not(:last-child) {
+    margin-right: 37px;
+  }
+
+  .header-list-bottom__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .podcasts-list__item {
+    flex: calc((100%) - 30px);
+  }
+
+  .podcasts-block-img {
+    flex-basis: 15%;
+  }
+
+  .playlists-form-radio:not(:last-child) {
+    margin-bottom: 34px;
+  }
+
+.playlists-list__item {
+  flex: calc((100% / 2) - 30px);
+  }
+
+  .playlists-block-left {
+    margin-bottom: 20px;
+  }
+
+  .advertisement-content {
+    flex-direction: column;
+  }
+
+  .advertisement-block-left {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .advertisement-block-right {
+    max-width: 100%;
+  }
+
+  .guests-profile-img {
+    max-height: 220px;
+  }
+
+  .guests-profile-content__p {
+    max-width: 398px;
+  }
+
+  .guests-mame-list__item {
+    margin-bottom: 28px;
+  }
+
+  .ac.is-active .ac-panel {
+    padding-bottom: 0;
+  }
+
+  .accordion-container {
+    margin-bottom: 50px;
+  }
+
+  .container-guests {
+    padding-bottom: 90px;
+  }
+
+  .accordion-container {
+    flex-basis: 67%;
+  }
+
+  .advertisement-img-new {
+    background-image: url(../img/advertisement-new-img.svg);
+  }
+
+  .container-advertisement {
+    padding-top: 52px;
+  }
+
+  .advertisement-h2 {
+    margin-bottom: 45px;
+  }
+
+  .advertisement-block-right {
+    background-image: url(../img/forus-spiral-img-768.svg);
+  }
+}
+
+@media (max-width: 850px) {
+  .guests-profile {
+    flex-basis: 50.5%;
+  }
+}
+
+
+
+@media (max-width: 835px) {
+  .transfers-block-left-bottom {
+    background-position: left bottom 140px;
+ }
+}
+
+@media (max-width: 800px) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .ether-play {
+    display: none;
+  }
+
+  .header-list-bottom__item {
+    margin: 0;
+  }
+
+  .header-list-bottom__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header-list-bottom {
+    justify-content: space-between;
+  }
+
+  .header-nav-bottom {
+    margin-right: 29px;
+    width: 100%;
+  }
+
+  .ether {
+    background: none;
+  }
+
+  .header-btn-play-768 {
+    display: block;
+  }
+
+  .burger--visible {
+    transform: translateY(0%);
+  }
+
+}
+
+
+@media (max-width: 750px) {
+  .transfers-blocks {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .transfers-block-left-bottom {
+    display: none;
+  }
+
+  .transfers-block-left-bottom-768 {
+    display: block;
+    margin-left: auto;
+    padding-top: 30px;
+    border-top: 1px solid #E6E8EC;
+  }
+
+  .transfers-block-left-bottom-768__content {
+    max-width: 345px;
+    min-height: 96px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 90px;
+    background-image: url(../img/transfers-microphone-768.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .transfers-text-archive {
+    display: block;
+    /* max-width: 355px; */
+  }
+
+  .transfers-link-archive {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .transfers-block-left {
+    margin-bottom: 46px;
+  }
+
+  .transfers-block-left__block:not(:last-child) {
+    margin: 0;
+  }
+
+  .transfers {
+    margin-bottom: 28px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-block-left {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 86px;
+  }
+
+  .footer-block-right-list {
+    gap: 20px 172px;
+  }
+
+  .footer-block-right {
+    max-width: 100%;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 680px) {
+  .quests-bloks {
+    flex-direction: column;
+  }
+
+  .accordion-container {
+    margin-right: 0;
+  }
+
+  
+}
+
+
+
+@media (max-width: 650px) {
+  .podcasts-block-img {
+    flex-basis: 21%;
+  }
+
+  .forus-block-heading {
+    flex-direction: column;
+  }
+
+  .forus-block-heading__text {
+    margin-right: 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .forus-img-dawn {
+    display: none;
+  }
+
+  .forus-img-768 {
+  display: block;
+}
+
+  .forus-img-spiral-768 {
+    position: relative;
+    right: 112px;
+    /* margin-right: 30px; */
+  }
+
+  .forus-img-dawn-768 {
+    position: absolute;
+    right: 15px;
+  }
+
+  .forus-input-flex {
+    flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 570px) {
+  .forus-block-heading__text {
+    margin-bottom: 22px;
+  }
+
+  .swiper-container {
+    margin-bottom: 31px;
+  }
+
+  .footer-block-right-list {
+    gap: 20px 172px;
+  }
+
+  .footer-block-right {
+    max-width: 100%;
+  }
+}
+
