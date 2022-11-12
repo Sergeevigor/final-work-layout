@@ -99,14 +99,14 @@
 
       const swiper = new Swiper('.swiper-container', {
         // slidesPerView: 4, 
-        loop: true,
+        // loop: true,
         // spaceBetween: 30,
 
         breakpoints: {
           
-        320: {
+        310: {
           slidesPerView: 2.2,
-          spaceBetween: 30,
+          spaceBetween: 20,
         },
 
         540: {
@@ -138,9 +138,12 @@
 
       });
 
+      /* accordion */
 
-      new Accordion('.accordion-container');
-
+      new Accordion('.accordion-container', {
+        openOnInit: [0]
+      }
+      );
 
       document.querySelectorAll('.guests-mame-list__link').forEach(function(tabsBtn){ 
         tabsBtn.addEventListener('click', function(e){ 

@@ -260,7 +260,9 @@
 .is-open .choices__list--dropdown,
 .is-open .choices__list[aria-expanded] {
   /* border-color: #b7b7b7 */
-  /* padding-top: 15px; */
+  padding-top: 15px;
+  margin-top: -15px;
+  z-index: -1;
 }
 
 .is-flipped .choices__list--dropdown,
