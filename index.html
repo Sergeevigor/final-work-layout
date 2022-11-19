@@ -34,31 +34,31 @@
             <img class="img-logo" src="img/logo-w-wave.svg" alt="Logo w-wave" aria-label="w-wave логотип">
           </a>
 
-          <button class="btn-reset burger" data-burger aria-label="Открыть меню" aria-expanded="false">
+          <button class="btn-reset burger" data-burger aria-label="Открыть меню навигации" aria-expanded="false">
             <span class="burger__line"></span>
           </button>
 
           <div class="burger-menu flex">
             <div class="burger-menu__top">
-              <button class="btn-reset burger-close">
+              <button class="btn-reset burger-close" aria-label="закрыть меню навигации">
                 <span class="burger-line-close"></span>
               </button>
               <nav class="burger-nav flex">
                 <ul class="burger-list burger-list-left list-reset flex">
                   <li class="burger-list__item">
-                    <a href="#podcasts" class="burger__link">
+                    <a href="#podcasts" class="burger-link" aria-label="перейти в раздел подкасты">
                       Подкасты
                     </a>
                   </li>
 
                   <li class="burger-list__item">
-                    <a href="#transfers" class="burger__link">
+                    <a href="#transfers" class="burger-link" aria-label="перейти в раздел передачи">
                       Передачи
                     </a>
                   </li>
 
                   <li class="burger-list__item">
-                    <a href="#guests" class="burger__link">
+                    <a href="#guests" class="burger-link" aria-label="перейти в раздел гости">
                       Гости
                     </a>
                   </li>
@@ -66,13 +66,13 @@
 
                 <ul class="burger-list burger-list-right list-reset flex">
                   <li class="burger-list__item burger-list__item-right">
-                    <a href="#playlists" class="burger__link">
+                    <a href="#playlists" class="burger-link" aria-label="перейти в раздел плейлисты">
                       Плейлисты
                     </a>
                   </li>
 
                   <li class="burger-list__item">
-                    <a href="#forus" class="burger__link">
+                    <a href="#forus" class="burger-link" aria-label="перейти в раздел о нас">
                       О нас
                     </a>
                   </li>
@@ -85,17 +85,17 @@
                 <div>
                   <ul class="burger-list-bottom burger-list-bottom-left list-reset flex">
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел новости">
                         Новости
                       </a>
                     </li>
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел блоги">
                         Блоги
                       </a>
                     </li>
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел топы">
                         Топы
                       </a>
                     </li>
@@ -104,17 +104,17 @@
                 <div>
                   <ul class="burger-list-bottom list-reset flex">
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел опросы">
                         Опросы
                       </a>
                     </li>
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел рейтинги">
                         Рейтинги
                       </a>
                     </li>
                     <li class="burger-list-bottom__item">
-                      <a href="#" class="burger-link-bottom">
+                      <a href="#" class="burger-link-bottom" aria-label="перейти в раздел реклама">
                         Реклама
                       </a>
                     </li>
@@ -128,31 +128,31 @@
             <nav class="header-nav">
               <ul class="header-list-top list-reset flex">
                 <li class="header-list-top__item">
-                  <a href="#podcasts" class="header__link">
+                  <a href="#podcasts" class="header__link" aria-label="перейти в раздел подкасты">
                     Подкасты
                   </a>
                 </li>
 
                 <li class="header-list-top__item">
-                  <a href="#transfers" class="header__link">
+                  <a href="#transfers" class="header__link" aria-label="перейти в раздел передачи">
                     Передачи
                   </a>
                 </li>
 
                 <li class="header-list-top__item">
-                  <a href="#guests" class="header__link">
+                  <a href="#guests" class="header__link" aria-label="перейти в раздел гости">
                     Гости
                   </a>
                 </li>
 
                 <li class="header-list-top__item">
-                  <a href="#playlists" class="header__link">
+                  <a href="#playlists" class="header__link" aria-label="перейти в раздел плейлисты">
                     Плейлисты
                   </a>
                 </li>
 
                 <li class="header-list-top__item">
-                  <a href="#forus" class="header__link">
+                  <a href="#forus" class="header__link" aria-label="перейти в раздел о нас">
                     О нас
                   </a>
                 </li>
@@ -187,7 +187,7 @@
               </div>
             </div>
 
-            <button class="modal-btn" aria-label="вход в аккаунт">Вход</button>
+            <button class="modal-btn" aria-label="открыть меню вход в аккаунт">Вход</button>
 
             <div class="modal">
               <div class="modal-window">
@@ -198,7 +198,7 @@
                 </div>
                 <input class="input-modal" placeholder="Логин" type="text" maxlength="30">
                 <input class="input-modal" placeholder="Пароль" type="password" maxlength="30">
-                <button class="btn-reset btn-modal">Войти</button>
+                <button class="btn-reset btn-modal" aria-label="войти в аккаунт">Войти</button>
                 <span class="span-modal span-modal-border">Войти с&nbsp;помощью:</span>
                 <ul class="list-reset modal-list-social flex">
                   <li class="modal-list-social__item">
@@ -232,7 +232,7 @@
                   </li>
                 </ul>
 
-                <button class="btn-reset btn-closed-modal">
+                <button class="btn-reset btn-closed-modal" aria-label="закрыть меню входа в аккаунт">
                   <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="21" cy="21" r="19.5" stroke="#A1A6B4" stroke-width="3" />
                     <path d="M29.6777 12L12 29.6777M29.6777 29.6777L12 12" stroke="#A1A6B4" stroke-width="3" />
@@ -287,7 +287,7 @@
             <button class="btn-reset header-btn-play" aria-label="кнопка слушать ранеее в эфире, пауза ранее в эфире">
               <svg class="header-img-play" width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <path class="header-img-play__svg"
+                <path class="header-img-play-svg"
                   d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0ZM8 14.5V5.5L14 10L8 14.5Z"
                   fill="#A1A6B4" />
               </svg>
@@ -309,8 +309,8 @@
               </svg>
             </button>
 
-            <span class="header-menu-bottom-before-content__top">Ранее в&nbsp;эфире</span>
-            <span class="header-menu-bottom-before-content__bottom">«Музыка»</span>
+            <span class="header-menu-bottom-before-content-top">Ранее в&nbsp;эфире</span>
+            <span class="header-menu-bottom-before-content-bottom">«Музыка»</span>
           </div>
 
           <div class="header-menu-bottom-now">
@@ -340,8 +340,8 @@
               </svg>
             </button>
 
-            <span class="header-menu-bottom-before-content__top">Сейчас в&nbsp;эфире</span>
-            <span class="header-menu-bottom-before-content__bottom">&laquo;Как так?&raquo;</span>
+            <span class="header-menu-bottom-before-content-top">Сейчас в&nbsp;эфире</span>
+            <span class="header-menu-bottom-before-content-bottom">&laquo;Как так?&raquo;</span>
           </div>
         </div>
         <span class="header-img-12"></span>
@@ -349,7 +349,7 @@
         <button class="btn-reset header-btn-play-768" aria-label="кнопка слушать ранеее в эфире, пауза ранее в эфире">
           <svg class="header-img-play-768" width="20" height="20" viewBox="0 0 20 20" fill="none"
             xmlns="http://www.w3.org/2000/svg">
-            <path class="header-img-play__svg"
+            <path class="header-img-play-svg"
               d="M10 0C4.475 0 0 4.475 0 10C0 15.525 4.475 20 10 20C15.525 20 20 15.525 20 10C20 4.475 15.525 0 10 0ZM8 14.5V5.5L14 10L8 14.5Z"
               fill="#A1A6B4" />
           </svg>
@@ -357,7 +357,7 @@
       </div>
     </div>
     <div class="header-whats">
-      <button class="btn-reset btn-header-whats">
+      <button class="btn-reset btn-header-whats" aria-label="открыть меню, что в эфире">
         <svg class="btn-header-whats-svg" width="15" height="15" viewBox="0 0 15 15" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <circle cx="7.5" cy="7.5" r="7.5" fill="#6D31EE" />
@@ -379,7 +379,7 @@
             <span class="h1-style-w-wawe">W-Wawe</span>
           </h1>
           <p class="p-reset hero-p">
-            Привет, на&nbsp;связи W-Wawe! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном
+            Привет, на&nbsp;связи W-Wawe! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разговорном
             жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого
             эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
           </p>
@@ -426,7 +426,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, европа. XIX век">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -454,7 +454,7 @@
 
                       <li class="podcast-list__item podcast-list__item-like" tabindex="0"
                         aria-label="количество лайков">
-                        <button class="btn-reset podcast-btn-like podcast-btns" aria-label="кнопка поставить лайк">
+                        <button class="btn-reset podcast-btn-like podcast-btns" aria-label="поставить лайк">
                           <svg class="podcast-svg-stroke" width="13" height="12" viewBox="0 0 13 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="podcast-stroke-like"
@@ -496,7 +496,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, о музыке">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -513,7 +513,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, о музыке">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -583,7 +583,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, люди сегодня">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -600,7 +600,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, люди сегодня">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -670,7 +670,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, хэллоу, Африка">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -687,7 +687,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, хэллоу, Африка">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -757,7 +757,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, обо всем">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -774,7 +774,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, обо всем">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -844,7 +844,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, физика цвета">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -861,7 +861,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, физика цвета">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -931,7 +931,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, источник звука">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -948,7 +948,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, источник звука">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1018,7 +1018,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, правила этикета">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -1035,7 +1035,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, правила этикета">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1122,7 +1122,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, европа. XIX век">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1192,7 +1192,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, о музыке">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -1209,7 +1209,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, о музыке">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1279,7 +1279,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, люди сегодня">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -1296,7 +1296,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, люди сегодня">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1366,7 +1366,7 @@
                     </div>
 
                     <div class="podcasts-block-top__right">
-                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, европа. XIX век">
+                      <button class="btn-reset podcast-btn-play" aria-label="включить подкаст, хэллоу, Африка">
                         <svg class="podcast-img-play" width="48" height="48" viewBox="0 0 48 48" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="24" cy="24" r="20" stroke="#A1A6B4" stroke-width="2" />
@@ -1383,7 +1383,7 @@
                         </svg>
                       </button>
 
-                      <button class="btn-reset podcast-btn-play-320">
+                      <button class="btn-reset podcast-btn-play-320" aria-label="включить подкаст, хэллоу, Африка">
                         <svg class="podcast-img-play-320" width="36" height="36" viewBox="0 0 36 36" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
                           <circle cx="18" cy="18" r="14.75" stroke="#6D31EE" stroke-width="2" />
@@ -1475,17 +1475,16 @@
             <ul class="list-reset transfers-list flex">
               <li class="transfers-list__item transfers-list__item-1 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-01.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-01.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-01.jpg" alt="декоративная картинка 1">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-01.jpg" alt="декоративная картинка 1"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">О&nbsp;людях и&nbsp;книгах</h3>
                     <span class="transfers-start-ether">Анонсируется отдельно</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, о людях и книгах">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1499,17 +1498,16 @@
 
               <li class="transfers-list__item transfers-list__item-2 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-02.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-02.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-02.jpg" alt="декоративная картинка 2">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-02.jpg" alt="декоративная картинка 2"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">Графомания&nbsp;td</h3>
                     <span class="transfers-start-ether">По&nbsp;понедельникам в&nbsp;10:00</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, графомания td">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1523,17 +1521,16 @@
 
               <li class="transfers-list__item flex transfers-list__item-3 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-03.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-03.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-03.jpg" alt="декоративная картинка 3">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-03.jpg" alt="декоративная картинка 3"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">Не&nbsp;Рим, не&nbsp;Троя</h3>
                     <span class="transfers-start-ether">По&nbsp;вторникам в&nbsp;12:00</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, не Рим, не Троя">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1547,17 +1544,16 @@
 
               <li class="transfers-list__item transfers-list__item-4 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-04.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-04.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-04.jpg" alt="декоративная картинка 4">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-04.jpg" alt="декоративная картинка 4"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">Эрудит</h3>
                     <span class="transfers-start-ether">По&nbsp;пятницам в&nbsp;17:00</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, эрудит">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1571,17 +1567,16 @@
 
               <li class="transfers-list__item transfers-list__item-5 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-05.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-05.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-05.jpg" alt="декоративная картинка 5">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-05.jpg" alt="декоративная картинка 5"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">Тонкости эпох</h3>
                     <span class="transfers-start-ether">По&nbsp;субботам в&nbsp;10:00</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, тонкости эпох">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1595,17 +1590,16 @@
 
               <li class="transfers-list__item transfers-list__item-6 flex" tabindex="0">
                 <picture class="transfers-picture">
-                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-06.jpg" sizes="" />
+                  <source media="(max-width: 400px)" srcset="img/transfers-img-320-06.jpg"/>
                   <img class="transfers-img" src="img/transfers-img-06.jpg" alt="декоративная картинка 6">
                 </picture>
-                <!-- <img class="transfers-img" src="img/transfers-img-06.jpg" alt="декоративная картинка 6"> -->
                 <div class="transfers-card">
                   <div class="transfers-card__top flex">
                     <h3 class="h2-reset transfers-h3">Живые мысли</h3>
                     <span class="transfers-start-ether">По&nbsp;воскресеньям в&nbsp;15:30</span>
                   </div>
                   <div>
-                    <a class="transfers-link-more" tabindex="0">Подробнее
+                    <a class="transfers-link-more" tabindex="0" aria-label="Подробнее, живые мысли">Подробнее
                       <svg class="transfers-link-more__svg" width="27" height="8" viewBox="0 0 27 8" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1641,55 +1635,70 @@
             <div class="ac">
 
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Блогеры</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список блогеров">Блогеры</button>
               </h2>
 
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Блогеры, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Блогеры, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Блогеры, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Блогеры, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Блогеры, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Блогеры, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="seven">Владислав Кауперс</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="seven"
+                      aria-label="Блогеры, Владислав Кауперс, выбрать">Владислав Кауперс</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="eight">Юрий Горин</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="eight"
+                      aria-label="Блогеры, Юрий Горин, выбрать">Юрий Горин</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="nine">Константин Прусино</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="nine"
+                      aria-label="Блогеры, Константин Прусино, выбрать">Константин Прусино</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Дмитрий Михалок</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="ten"
+                      aria-label="Блогеры, Дмитрий Михалок, выбрать">Дмитрий Михалок</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Михаил Пожитников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="eleven"
+                      aria-label="Блогеры, Михаил Пожитников, выбрать">Михаил Пожитников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Максим Сергеев</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="twelve"
+                      aria-label="Блогеры, Максим Сергеев, выбрать">Максим Сергеев</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Иван Калитников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="thirteen"
+                      aria-label="Блогеры, Иван Калитников, выбрать">Иван Калитников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Пётр Пиотровский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="fourteen"
+                      aria-label="Блогеры, Пётр Пиотровский, выбрать">Пётр Пиотровский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Георгий Полуян</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="fifteen"
+                      aria-label="Блогеры, Георгий Полуян, выбрать">Георгий Полуян</button>
                   </li>
                 </ul>
               </div>
@@ -1697,27 +1706,33 @@
 
             <div class="ac">
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Арт-критики</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список арт-критиков">Арт-критики</button>
               </h2>
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Арт-критики, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Арт-критики, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Арт-критики, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Арт-критики, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Арт-критики, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Арт-критики, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                 </ul>
               </div>
@@ -1725,39 +1740,49 @@
 
             <div class="ac">
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Художники</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список художников">Художники</button>
               </h2>
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Художники, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Художники, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Художники, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Художники, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Художники, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Художники, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="seven">Владислав Кауперс</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="seven"
+                      aria-label="Художники, Владислав Кауперс, выбрать">Владислав Кауперс</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="eight">Юрий Горин</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="eight"
+                      aria-label="Художники, Юрий Горин, выбрать">Юрий Горин</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="nine">Константин Прусино</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="nine"
+                      aria-label="Художники, Константин Прусино, выбрать">Константин Прусино</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Дмитрий Михалок</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="ten"
+                      aria-label="Художники, Дмитрий Михалок, выбрать">Дмитрий Михалок</button>
                   </li>
                 </ul>
               </div>
@@ -1765,27 +1790,33 @@
 
             <div class="ac">
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Люди науки</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список людей науки">Люди науки</button>
               </h2>
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Люди науки, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Люди науки, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Люди науки, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Люди науки, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Люди науки, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Люди науки, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                 </ul>
               </div>
@@ -1793,30 +1824,37 @@
 
             <div class="ac">
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Историки</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список историков">Историки</button>
               </h2>
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Историки, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Историки, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Историки, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Историки, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Историки, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Историки, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="seven">Владислав Кауперс</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="seven"
+                      aria-label="Историки, Владислав Кауперс, выбрать">Владислав Кауперс</button>
                   </li>
                 </ul>
               </div>
@@ -1824,39 +1862,49 @@
 
             <div class="ac">
               <h2 class="ac-header h2-reset quest-h3">
-                <button type="button" class="ac-trigger">Филологи</button>
+                <button type="button" class="ac-trigger" aria-label="Открыть список филологов">Филологи</button>
               </h2>
               <div class="ac-panel">
                 <ul class="list-reset guests-mame-list flex">
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="one">Сергей Денисов</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="one"
+                      aria-label="Филологи, Сергей Денисов, выбрать">Сергей Денисов</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="two">Евгений Войновский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="two"
+                      aria-label="Филологи, Евгений Войновский, выбрать">Евгений Войновский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="three">Олег Свиридовский</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="three"
+                      aria-label="Филологи, Олег Свиридовский, выбрать">Олег Свиридовский</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="four">Денис Тельман</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="four"
+                      aria-label="Филологи, Денис Тельман, выбрать">Денис Тельман</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="five">Матвей Мечников</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="five"
+                      aria-label="Филологи, Матвей Мечников, выбрать">Матвей Мечников</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="six">Ольга Мартынова</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="six"
+                      aria-label="Филологи, Ольга Мартынова, выбрать">Ольга Мартынова</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="seven">Владислав Кауперс</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="seven"
+                      aria-label="Филологи, Владислав Кауперс, выбрать">Владислав Кауперс</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="eight">Юрий Горин</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="eight"
+                      aria-label="Филологи, Юрий Горин, выбрать">Юрий Горин</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="nine">Константин Прусино</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="nine"
+                      aria-label="Филологи, Константин Прусино, выбрать">Константин Прусино</button>
                   </li>
                   <li class="guests-mame-list__item">
-                    <button class="btn-reset guests-mame-list__link" data-path="ten">Дмитрий Михалок</button>
+                    <button class="btn-reset guests-mame-list__link" data-path="ten"
+                      aria-label="Филологи, Дмитрий Михалок, выбрать">Дмитрий Михалок</button>
                   </li>
                 </ul>
               </div>
@@ -1868,7 +1916,7 @@
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть инстаграм Сергей Денисов">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
                         <path
@@ -1884,7 +1932,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Сергей Денисов">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
                         <path
@@ -1900,7 +1948,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Сергей Денисов">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -1931,7 +1979,7 @@
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть инстаграм Евгений Войновский">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
                         <path
@@ -1947,7 +1995,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Евгений Войновский">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
                         <path
@@ -1963,7 +2011,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Евгений Войновский">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -1993,7 +2041,7 @@
             <img class="guests-profile-img guests-profile-3" src="" alt="Олег Свиридовский">
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
-                <li class="guest-list-social__item">
+                <li class="guest-list-social__item" aria-label="открыть инстаграм Олег Свиридовский">
                   <a class="guest-list-social__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
@@ -2010,7 +2058,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Олег Свиридовский">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
                         <path
@@ -2026,7 +2074,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Олег Свиридовский">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -2055,7 +2103,7 @@
             <img class="guests-profile-img guests-profile-4" src="" alt="Денис Тельман">
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
-                <li class="guest-list-social__item">
+                <li class="guest-list-social__item" aria-label="открыть инстаграм Денис Тельман">
                   <a class="guest-list-social__link">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
@@ -2072,7 +2120,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Денис Тельман">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
                         <path
@@ -2088,7 +2136,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Денис Тельман">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -2118,7 +2166,7 @@
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть инстаграм Матвей Мечников">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
                         <path
@@ -2134,7 +2182,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Матвей Мечников">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
                         <path
@@ -2150,7 +2198,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Матвей Мечников">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
                         <path
@@ -2176,16 +2224,15 @@
 
           <div class="guests-profile" data-target="six">
             <picture class="guests-picture">
-              <source media="(max-width: 350px)" srcset="img/quest-Olga-Martynova-1024-01.jpg" sizes="" />
-              <source media="(max-width: 680px)" srcset="img/quest-Olga-Martynova-768.jpg" sizes="" />
-              <source media="(max-width: 854px)" srcset="img/quest-Olga-Martynova-1024-01.jpg" sizes="" />
+              <source media="(max-width: 350px)" srcset="img/quest-Olga-Martynova-1024-01.jpg"/>
+              <source media="(max-width: 680px)" srcset="img/quest-Olga-Martynova-768.jpg"/>
+              <source media="(max-width: 854px)" srcset="img/quest-Olga-Martynova-1024-01.jpg"/>
               <img class="guests-profile-img guests-profile-6" src="img/quest-Olga-Martynova.jpg" alt="Ольга Мартынова">
             </picture>
-            <!-- <img class="guests-profile-img guests-profile-6" src="img/quest-Olga-Martynova.jpg" alt="Ольга Мартынова"> -->
             <div class="guests-profile-content">
               <ul class="list-reset guest-list-social flex">
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть инстаграм Ольга Мартынова">
                     <svg class="guest-list-social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5305)">
@@ -2216,7 +2263,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть фейсбук Ольга Мартынова">
                     <svg class="guest-list-social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5308)">
@@ -2247,7 +2294,7 @@
                   </a>
                 </li>
                 <li class="guest-list-social__item">
-                  <a class="guest-list-social__link">
+                  <a class="guest-list-social__link" aria-label="открыть твиттер Ольга Мартынова">
                     <svg class="guest-list-social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_24531_5311)">
@@ -2298,14 +2345,18 @@
         <h2 class="h2-reset playlists-h2-320">Плейлисты</h2>
         <span class="playlist-genre playlist-genre-320">Жанр</span>
         <div class="playlists-block-left-320 flex">
-          <button class="btn-reset btn-playlist-genre">Постпанк</button>
-          <button class="btn-reset btn-playlist-genre">Хардкор</button>
-          <button class="btn-reset btn-playlist-genre">Панк-рок</button>
-          <button class="btn-reset btn-playlist-genre">Рок</button>
-          <button class="btn-reset btn-playlist-genre">Прогрессивный рок</button>
-          <button class="btn-reset btn-playlist-genre">Электронная музыка</button>
-          <button class="btn-reset btn-playlist-genre">Классическая музыка</button>
-          <button class="btn-reset btn-playlist-genre">Звуки природы и шум города</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Постпанк">Постпанк</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Хардкор">Хардкор</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Панк-рок">Панк-рок</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Рок">Рок</button>
+          <button class="btn-reset btn-playlist-genre"
+            aria-lable="открыть раздел Прогрессивный рок">Прогрессивный рок</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Электронная музыка">Электронная
+            музыка</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Классическая музыка">Классическая
+            музыка</button>
+          <button class="btn-reset btn-playlist-genre" aria-lable="открыть раздел Звуки природы и шум города">Звуки
+            природы и шум города</button>
         </div>
       </div>
 
@@ -2315,7 +2366,6 @@
 
           <form class="playlists-form flex">
             <legend class="playlist-genre">Жанр</legend>
-            <!-- <span class="playlist-genre">Жанр</span> -->
 
             <div class="playlists-form-block">
               <div class="playlists-form-block__left">
@@ -2379,11 +2429,11 @@
 
               <div class="playlists-block-img">
                 <picture class="playlists-picture">
-                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-1.jpg" sizes="" />
-                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-01.jpg" sizes="" />
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-1.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-01.jpg"/>
                   <img class="playlists-img" src="img/playlists-img-01.jpg" alt="Ploho">
                 </picture>
-                <button class="btn-reset playlists-btn-play">
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Ploho">
                   <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
@@ -2394,7 +2444,6 @@
                 </button>
               </div>
 
-              <!-- <img class="playlists-img" src="img/playlists-img-01.jpg" alt="Ploho"> -->
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Ploho</h3>
                 <span class="playlists-card__songs">3&nbsp;последних альбома</span>
@@ -2404,11 +2453,11 @@
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
                 <picture class="playlists-picture">
-                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-2.jpg" sizes="" />
-                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-02.jpg" sizes="" />
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-2.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-02.jpg"/>
                   <img class="playlists-img" src="img/playlists-img-02.jpg" alt="Molchat Doma">
                 </picture>
-                <button class="btn-reset playlists-btn-play">
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Molchat Doma">
                   <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
@@ -2418,7 +2467,6 @@
                   </svg>
                 </button>
               </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-02.jpg" alt="Molchat Doma"> -->
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Molchat Doma</h3>
                 <span class="playlists-card__songs">Все песни</span>
@@ -2428,11 +2476,11 @@
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
                 <picture class="playlists-picture">
-                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-3.jpg" sizes="" />
-                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-03.jpg" sizes="" />
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-3.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-03.jpg"/>
                   <img class="playlists-img" src="img/playlists-img-03.jpg" alt="Motorama">
                 </picture>
-                <button class="btn-reset playlists-btn-play">
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Motorama">
                   <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
@@ -2442,7 +2490,6 @@
                   </svg>
                 </button>
               </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-03.jpg" alt="Motorama"> -->
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Motorama</h3>
                 <span class="playlists-card__songs">Все синглы</span>
@@ -2451,22 +2498,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-4.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-04.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-04.jpg" alt="Human Tetris">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-04.jpg" alt="Human Tetris"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-4.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-04.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-04.jpg" alt="Human Tetris">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Human Tetris">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Human Tetris</h3>
                 <span class="playlists-card__songs">3&nbsp;последних альбома</span>
@@ -2475,22 +2521,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-5.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-05.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-05.jpg" alt="Буерак">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-05.jpg" alt="Буерак"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-5.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-05.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-05.jpg" alt="Буерак">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Буерак">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Буерак</h3>
                 <span class="playlists-card__songs">Все&nbsp;EP</span>
@@ -2499,22 +2544,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-6.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-06.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-06.jpg" alt="Июльские Дни">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-06.jpg" alt="Июльские Дни"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-6.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-06.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-06.jpg" alt="Июльские Дни">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Июльские Дни">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Июльские дни</h3>
                 <span class="playlists-card__songs">Альбом Колокол</span>
@@ -2523,22 +2567,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-7.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-07.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-07.jpg" alt="Joy Division">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-07.jpg" alt="Joy Division"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-7.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-07.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-07.jpg" alt="Joy Division">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Joy Division">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Joy Division</h3>
                 <span class="playlists-card__songs">Лучшее за&nbsp;всё время</span>
@@ -2547,22 +2590,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-8.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-08.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-08.jpg" alt="The Cure">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-08.jpg" alt="The Cure"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-8.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-08.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-08.jpg" alt="The Cure">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать The Cure">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">The Cure</h3>
                 <span class="playlists-card__songs">Лучшее за&nbsp;всё время</span>
@@ -2571,22 +2613,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-9.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-09.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-09.jpg" alt="The Smiths">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-09.jpg" alt="The Smiths"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-9.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-09.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-09.jpg" alt="The Smiths">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать The Smiths">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">The Smiths</h3>
                 <span class="playlists-card__songs">Период 1984&ndash;1988</span>
@@ -2595,22 +2636,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-10.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-10.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-10.jpg" alt="The Smiths">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-10.jpg" alt="New Order"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-10.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-10.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-10.jpg" alt="New Order">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать New Order">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">New Order</h3>
                 <span class="playlists-card__songs">Хиты</span>
@@ -2619,22 +2659,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-11.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-11.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-11.jpg" alt="The Smiths">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-11.jpg" alt="Bauhaus"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-11.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-11.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-11.jpg" alt="Bauhaus">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Bauhaus">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Bauhaus</h3>
                 <span class="playlists-card__songs">Все синглы</span>
@@ -2643,22 +2682,21 @@
 
             <li class="playlists-list__item flex" tabindex="0">
               <div class="playlists-block-img">
-              <picture class="playlists-picture">
-                <source media="(max-width: 500px)" srcset="img/playlists-img-320-12.jpg" sizes="" />
-                <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-12.jpg" sizes="" />
-                <img class="playlists-img" src="img/playlists-img-12.jpg" alt="The Smiths">
-              </picture>
-              <button class="btn-reset playlists-btn-play">
-                <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
-                  <path
-                    d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
-                    fill="white" />
-                </svg>
-              </button>
-            </div>
-              <!-- <img class="playlists-img" src="img/playlists-img-12.jpg" alt="Gang Of Four"> -->
+                <picture class="playlists-picture">
+                  <source media="(max-width: 500px)" srcset="img/playlists-img-320-12.jpg"/>
+                  <source media="(max-width: 1100px)" srcset="img/playlists-img-1024-12.jpg"/>
+                  <img class="playlists-img" src="img/playlists-img-12.jpg" alt="Gang Of Four">
+                </picture>
+                <button class="btn-reset playlists-btn-play" aria-label="слушать Gang Of Four">
+                  <svg class="playlists-picture-svg" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="28" cy="28" r="24.5" fill="#6D31EE" />
+                    <path
+                      d="M25.3078 37.096L36.8336 28.933C37.5 28.4665 37.5 27.5336 36.8336 27.0672L25.3078 18.9041C24.4934 18.321 23.3334 18.8808 23.3334 19.837V36.1631C23.3334 37.1194 24.4934 37.6791 25.3078 37.096Z"
+                      fill="white" />
+                  </svg>
+                </button>
+              </div>
               <div class="playlists-card">
                 <h3 class="h2-reset playlists-card__h3">Gang Of&nbsp;Four</h3>
                 <span class="playlists-card__songs">3&nbsp;последних альбома</span>
@@ -2695,7 +2733,7 @@
               </p>
               <p class="p-reset advertisement-p advertisement-p-bottom">Итак, встречайте! Портативный
                 радиоприёмник-колонка
-                W-Wave 1.0&nbsp;xm. Тщательный подбор всех делатей,
+                W-Wave 1.0&nbsp;xm. Тщательный подбор всех деталей,
                 ручная сборка, качественный звук. Пока доступно только 60&nbsp;штук в&nbsp;3&nbsp;цветах,
                 но&nbsp;мы&nbsp;активно трудимся над новыми партиями и&nbsp;дизайном. Спешите приобрести!
               </p>
@@ -2714,7 +2752,7 @@
                     fill="white" />
                 </svg>
               </span>
-              <a class="advertisement-btn" tabindex="0">
+              <a class="advertisement-btn" tabindex="0" aria-label="купить на яндекс маркет">
                 <svg class="advertisement-btn__svg" width="21" height="20" viewBox="0 0 21 20" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_47301_968)">
@@ -2749,7 +2787,7 @@
               Нам
               важен
               каждый слушатель, поэтому
-              вы&nbsp;можете поделиться обратной связью о&nbsp;наших предеачах, темах, подборках и&nbsp;вообще обо всём!
+              вы&nbsp;можете поделиться обратной связью о&nbsp;наших передачах, темах, подборках и&nbsp;вообще обо всём!
               Это
               можно сделать либо написав нам в&nbsp;форме ниже, либо кликнув на&nbsp;наши соцсети в&nbsp;подвале сайта.
               Спасибо! Услышимся!:)
@@ -2790,14 +2828,12 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide swiper-slide-1">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-01.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-01.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-01.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-01.jpg"
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-01.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-01.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-01.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-01.jpg"
                 alt="Дмитрий Гутенберг">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-01.jpg"
-                alt="Дмитрий Гутенберг"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Дмитрий Гутенберг</h3>
               <span class="swiper-card__text">Эксперт (ну, почти) по&nbsp;всем вопросам (почти)</span>
@@ -2806,12 +2842,11 @@
 
           <div class="swiper-slide swiper-slide-2">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-02.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-02.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-02.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-02.jpg" alt="Анна Васильева">
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-02.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-02.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-02.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-02.jpg" alt="Анна Васильева">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-2__img" src="img/forus-swiper-img-02.jpg" alt="Анна Васильева"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Анна Васильева</h3>
               <span class="swiper-card__text">Как я&nbsp;здесь оказалась? А&nbsp;главное&nbsp;&mdash; зачем?</span>
@@ -2820,14 +2855,12 @@
 
           <div class="swiper-slide swiper-slide-3">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-02.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-03.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-03.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-03.jpg"
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-02.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-03.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-03.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-03.jpg"
                 alt="Пётр Дмитриевский">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-3__img" src="img/forus-swiper-img-03.jpg"
-                alt="Пётр Дмитриевский"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Пётр Дмитриевский</h3>
               <span class="swiper-card__text">Господа! Внимание! Благодарю за&nbsp;внимание!</span>
@@ -2836,14 +2869,12 @@
 
           <div class="swiper-slide swiper-slide-4">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-04.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-04.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-04.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-04.jpg"
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-04.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-04.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-04.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-04.jpg"
                 alt="Татьяна Флеганова">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-4__img" src="img/forus-swiper-img-04.jpg"
-                alt="Татьяна Флеганова"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Татьяна Флеганова</h3>
               <span class="swiper-card__text">Одна я&nbsp;в&nbsp;пальто стою красивая, а&nbsp;вокруг...</span>
@@ -2852,12 +2883,11 @@
 
           <div class="swiper-slide swiper-slide-5">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-05.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-05.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-05.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-05.jpg" alt="Фёдор Прокопьев">
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-05.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-05.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-05.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-05.jpg" alt="Фёдор Прокопьев">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-5__img" src="img/forus-swiper-img-05.jpg" alt="Фёдор Прокопьев"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Фёдор Прокопьев</h3>
               <span class="swiper-card__text">Привет! Я&nbsp;фотограф, музыкант, ведущий</span>
@@ -2866,14 +2896,12 @@
 
           <div class="swiper-slide swiper-slide-6">
             <picture class="playlists-picture">
-              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-06.jpg" sizes="" />
-              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-06.jpg" sizes="" />
-              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-06.jpg" sizes="" />
-              <img class="swiper-slide__img swiper-card-1__img" src="img/forus-swiper-img-06.jpg"
+              <source media="(max-width: 350px)" srcset="img/forus-swiper-img-320-06.jpg"/>
+              <source media="(max-width: 650px)" srcset="img/forus-swiper-img-06.jpg"/>
+              <source media="(max-width: 999px)" srcset="img/forus-swiper-img-750-06.jpg"/>
+              <img class="swiper-slide__img" src="img/forus-swiper-img-06.jpg"
                 alt="Светлана Кортнева">
             </picture>
-            <!-- <img class="swiper-slide__img swiper-card-6__img" src="img/forus-swiper-img-06.jpg"
-                alt="Светлана Кортнева"> -->
             <div class="swiper-card">
               <h3 class="h2-reset swiper-card__h3">Светлана Кортнева</h3>
               <span class="swiper-card__text">Художник-оформитель. Оформляю</span>
@@ -2905,11 +2933,6 @@
           </div>
           <button class="btn-reset forus-btn">Отправить</button>
 
-          <!-- <div class="forus-checkbox flex" tabindex="0">
-            <input class="forus-input" type="checkbox" name="checkbox" value="Согласен на&nbsp;обработку данных">
-            <label class="forus-form-checkbox">Согласен на&nbsp;обработку данных</label>
-          </div> -->
-
           <label class="forus-form-checkbox">
             <input class="input-checkbox" type="checkbox" name="check" value="Согласен на обработку данных">
             Согласен на&nbsp;обработку персональных данных
@@ -2923,7 +2946,6 @@
   <footer class="footer">
 
     <div class="container footer-container flex">
-      <!-- <div class="footer-container flex"> -->
       <div class="footer-block-left">
         <div class="header-logo">
           <a href="#" class="footer-logo-link">
@@ -2934,7 +2956,7 @@
 
         <ul class="list-reset footer-list-social flex">
           <li class="footer-list-social__item" tabindex="0">
-            <a class="footer-list-social__link">
+            <a class="footer-list-social__link" aria-label="открыть канал ютуб w-wave">
               <svg class="footer-svg-you" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_24531_5372)">
@@ -2964,7 +2986,7 @@
             </a>
           </li>
           <li class="footer-list-social__item" tabindex="0">
-            <a class="footer-list-social__link">
+            <a class="footer-list-social__link" aria-label="открыть группу в одноклассниках w-wave">
               <svg class="footer-svg-odn" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_24531_5373)">
@@ -3000,7 +3022,7 @@
             </a>
           </li>
           <li class="footer-list-social__item" tabindex="0">
-            <a class="footer-list-social__link">
+            <a class="footer-list-social__link" aria-label="открыть в контакте w-wave">
               <svg class="footer-svg-vk" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -3020,45 +3042,45 @@
 
       <div class="footer-block-right">
 
-        <nav class="nav flex">
+        <nav class="footer-nav flex">
           <div>
-            <ul class="list-reset ul flex">
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Подкасты</a>
+            <ul class="list-reset footer-block-right-list flex">
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел подкасты">Подкасты</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Передачи</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел передачи">Передачи</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Гости</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел гости">Гости</a>
               </li>
             </ul>
           </div>
 
           <div>
-            <ul class="list-reset ul flex">
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Плейлисты</a>
+            <ul class="list-reset footer-block-right-list flex">
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел плейлисты">Плейлисты</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Сетка</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел сетка">Сетка</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">О нас</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел о нас">О нас</a>
               </li>
             </ul>
           </div>
 
           <div>
-            <ul class="list-reset ul flex">
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Новости</a>
+            <ul class="list-reset footer-block-right-list flex">
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел новости">Новости</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Блоги</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел блоги">Блоги</a>
               </li>
-              <li class="li footer-block-right-list__item">
-                <a class="link footer-block-right-list__link" tabindex="0">Топы</a>
+              <li class="footer-block-right-list__item">
+                <a class="link footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел топы">Топы</a>
               </li>
             </ul>
           </div>
@@ -3067,31 +3089,31 @@
         <nav class="footer-nav-320">
           <ul class="list-reset footer-block-right-list flex">
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Подкасты</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел подкасты">Подкасты</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">О нас</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел о нас">О нас</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Передачи</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел передачи">Передачи</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Новости</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел новости">Новости</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Гости</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел гости">Гости</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Блоги</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел блоги">Блоги</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Плейлисты</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел плейлисты">Плейлисты</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Топы</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел топы">Топы</a>
             </li>
             <li class="footer-block-right-list__item">
-              <a class="footer-block-right-list__link" tabindex="0">Сетка</a>
+              <a class="footer-block-right-list-link" tabindex="0" aria-label="перейти в раздел сетка">Сетка</a>
             </li>
           </ul>
         </nav>

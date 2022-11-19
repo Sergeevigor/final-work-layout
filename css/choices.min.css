@@ -15,6 +15,7 @@
 
 .choices.is-open {
   overflow: visible;
+  z-index: 50;
   }
 
 .choices.is-disabled .choices__inner,
@@ -35,10 +36,6 @@
 
 .choices[data-type*=select-one] {
   cursor: pointer
-}
-
-.choices[data-type*=select-one] .choices__inner {
-  /* padding-bottom: 7.5px */
 }
 
 .choices[data-type*=select-one] .choices__input {
@@ -80,16 +77,9 @@
 
 .choices[data-type*=select-one]::after {
   content: "";
-  /* height: 0; */
-  /* width: 0; */
-  /* border-style: solid; */
-  /* border-color: #333 transparent transparent; */
-  /* border-width: 5px; */
   position: absolute;
   right: 15.5px;
   top: 15px;
-  /* margin-top: -2.5px; */
-  /* pointer-events: none */
   transform: rotate(45deg);
   height: 8px;
   width: 8px;
@@ -100,8 +90,6 @@
 }
 
 .choices[data-type*=select-one].is-open::after {
-  /* border-color: transparent transparent #333;
-  margin-top: -7.5px */
   top: 20px;
   transform: rotate(-135deg);
   transition: transform .5s ease-in-out;
@@ -135,7 +123,6 @@
   background-size: 8px;
   width: 8px;
   line-height: 1;
-  /* opacity: .75; */
   border-radius: 0
 }
 
@@ -150,28 +137,17 @@
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  /* background-color: #f9f9f9; */
   padding: 7.5px 7.5px 3.75px;
-  /* border: 1px solid #ddd; */
   border-radius: 10px;
   font-size: 16px;
   line-height: 16px;
   color: #121723;
-  /* min-height: 44px; */
-  overflow: hidden
+  overflow: hidden;
 }
 
 .is-focused .choices__inner,
 .is-open .choices__inner {
   border-color: #b7b7b7;
-}
-
-.is-open .choices__inner {
-  /* border-radius: 10px 10px 0 0 */
-}
-
-.is-flipped.is-open .choices__inner {
-  /* border-radius: 0 0 10px 10px */
 }
 
 .choices__list {
@@ -202,7 +178,6 @@
 .choices__list--multiple .choices__item {
   display: inline-block;
   vertical-align: middle;
-  /* border-radius: 20px; */
   padding: 4px 10px;
   font-size: 12px;
   font-weight: 500;
@@ -241,10 +216,8 @@
   position: absolute;
   width: 100%;
   background-color: #fff;
-  /* border: 1px solid #ddd; */
   top: 100%;
   margin-top: -1px;
-  /* padding-top: 20px; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
@@ -259,7 +232,6 @@
 
 .is-open .choices__list--dropdown,
 .is-open .choices__list[aria-expanded] {
-  /* border-color: #b7b7b7 */
   padding-top: 15px;
   margin-top: -15px;
   z-index: -1;

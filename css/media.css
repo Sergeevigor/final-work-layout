@@ -1,3 +1,9 @@
+@media (max-width: 1250px) {
+  .swiper-btn {
+    display: none;
+  }
+}
+
 @media (max-width: 1100px) {
   .header-logo-link {
     margin-right: 30px;
@@ -15,14 +21,8 @@
     flex-direction: column;
   }
 
-  .playlists-form {
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-  }
-
   .playlists-form-block {
     display: flex;
-    /* align-items: flex-start; */
   }
 
   .playlists-block-left {
@@ -100,11 +100,6 @@
   }
 }
 
-
-
-
-
-
 @media (max-width: 1000px) {
   .header-img-12 {
     display: none;
@@ -114,10 +109,6 @@
   .header-nav-bottom {
     margin-right: 0;
   }
-
-  /* .header-list-bottom__item {
-    margin-right: 30px;
-  } */
 
   .header-list-bottom__item:not(:last-child) {
     margin-right: 30px;
@@ -148,7 +139,6 @@
   }
 
   .transfers-block-left__block {
-    /* flex-basis: calc((100% / 3); */
     max-width: 327.5px;
     max-height: 302.91px;
     width: 100%;
@@ -177,13 +167,7 @@
   .transfers-link-archive {
     margin-top: auto;
   }
-
-  .swiper-btn {
-    display: none;
-  }
-
 }
-
 
 @media (max-width: 900px) {
   .forus-img-spiral {
@@ -198,10 +182,6 @@
 
   .header-list-top {
     margin-right: 37px;
-  }
-
-  .header-top {
-    /* padding-top: 15px; */
   }
 
   .header-btn-search {
@@ -258,10 +238,6 @@
   }
 }
 
-
-@media (max-width: 860px) {}
-
-
 @media (max-width: 855px) {
   .header-list-bottom__item:not(:last-child) {
     margin-right: 29px;
@@ -300,9 +276,6 @@
     right: 15px;
     padding: 60px 40px;
   }
-
-
-
 }
 
 @media (max-width: 852px) {
@@ -403,8 +376,6 @@
   }
 }
 
-
-
 @media (max-width: 835px) {
   .transfers-block-left-bottom {
     background-position: left bottom 140px;
@@ -456,9 +427,7 @@
   .header-menu-search {
     left: 35%;
   }
-
 }
-
 
 @media (max-width: 750px) {
   .transfers-blocks {
@@ -491,7 +460,6 @@
 
   .transfers-text-archive {
     display: block;
-    /* max-width: 355px; */
   }
 
   .transfers-link-archive {
@@ -499,7 +467,6 @@
     margin: 0;
     margin-bottom: 8px;
     margin-right: auto;
-    /* margin-left: auto; */
   }
 
   .transfers-block-left {
@@ -543,10 +510,7 @@
   .footer-svg-vk {
     display: none;
   }
-
-
 }
-
 
 @media (max-width: 680px) {
   .quests-bloks {
@@ -556,11 +520,7 @@
   .accordion-container {
     margin-right: 0;
   }
-
-
 }
-
-
 
 @media (max-width: 650px) {
   .podcasts-block-img {
@@ -588,7 +548,6 @@
   .forus-img-spiral-768 {
     position: relative;
     right: 112px;
-    /* margin-right: 30px; */
   }
 
   .forus-img-dawn-768 {
@@ -604,7 +563,6 @@
     left: 30%;
   }
 }
-
 
 @media (max-width: 570px) {
   .forus-block-heading__text {
@@ -631,16 +589,9 @@
   .forus-img-dawn-768 {
     display: none;
   }
-
-  .burger-list {
-    /* gap: 64px 10px; */
-  }
 }
 
 @media (max-width: 500px) {
-  .header-logo-tablet {
-    /* flex-direction: row; */
-  }
 
   .h1-style-radio,
   .h1-style-w-wawe {
@@ -674,11 +625,9 @@
     flex-direction: column;
     background-image: none;
     padding: 0;
-    /* max-height: 393px; */
   }
 
   .burger-list {
-    /* gap: 40px 48px; */
     max-width: 250px;
     max-height: 188px;
   }
@@ -717,9 +666,6 @@
   }
 
   .burger-list-bottom {
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     max-height: 168px;
     gap: 32px 75px;
@@ -727,11 +673,6 @@
 
   .burger-list-bottom__item {
     flex: calc(100% / 2);
-    /* margin-bottom: 30px; */
-  }
-
-  .burger-nav-bottom {
-    /* justify-content: space-between; */
   }
 
   .burger-list-bottom {
@@ -826,10 +767,6 @@
 
 
 @media (max-width: 450px) {
-  .podcasts-list__item {
-    /* flex-direction: column; */
-  }
-
   .block-podcast {
     flex-direction: column;
   }
@@ -899,7 +836,6 @@
     margin-bottom: auto;
   }
 }
-
 
 @media (max-width: 400px) {
   .transfers-card {
@@ -1098,7 +1034,6 @@
 
   .guests-mame-list__item {
     flex-basis: 24%;
-    /* flex: calc((100% / 2) - 42px); */
     padding-left: 0;
     margin-bottom: 0;
     min-width: 40px;
@@ -1197,10 +1132,6 @@
     line-height: 12px;
   }
 
-  .podcasts-block-top {
-    /* padding: 16px 16px 13px 16px; */
-  }
-
   .podcasts-block-bottom {
     padding: 6px 30px 6px 32px;
   }
@@ -1268,10 +1199,8 @@
 
   .guests-mame-list__item {
     flex-basis: 29%;
-    /* flex: calc((100% / 2) - 42px); */
     padding-left: 0;
     margin-bottom: 0;
-    /* min-width: 40px; */
   }
 
   .guests-mame-list__link {
@@ -1508,7 +1437,4 @@
     font-size: 12px;
     line-height: 103.34%;
   }
-
-
-
 }
